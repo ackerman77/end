@@ -11,7 +11,7 @@ function Orders({ onCart, onFavorite }: any) {
 
     React.useEffect(() => {
         async function fetchData() {
-            const { data } = await axios.get('https://65aa1b5e081bd82e1d961920.mockapi.io/order')
+            const { data } = await axios.get('')
             setOrder(data.map((obj: { cartProducts: any; }) => obj.cartProducts).flat());
         }
         fetchData();
