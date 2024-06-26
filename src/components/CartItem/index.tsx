@@ -9,7 +9,7 @@ function CartItem({ id, img, title, price, onCart, prod_id=id }: any) {
         <li className={styles.cart__item}>
             <img
                 src={img}
-                alt='Sneaker'
+                alt=''
                 width={70}
                 height={70}
                 className={styles.cart__img}
