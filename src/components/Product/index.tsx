@@ -44,7 +44,7 @@ function Product({ id, img, title, price, onFavorite, onCart, isLoading, prod_id
                     />
                     <img
                         src={img}
-                        alt='Sneaker'
+                        alt='PC'
                         width={133}
                         height={112}
                         className={styles.product__img}
